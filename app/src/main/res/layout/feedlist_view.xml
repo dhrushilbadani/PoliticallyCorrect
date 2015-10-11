@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/relativeLayout1"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:id="@+id/MessageText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Message"
+        android:layout_alignTop="@+id/UpvoteButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignBottom="@+id/UpvoteButton"
+        android:layout_toLeftOf="@+id/UpvoteButton">
+    </TextView>
+
+
+    <Button
+        android:id = "@+id/UpvoteButton"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Its Fine"
+        android:clickable="true"
+        android:onClick="upvote"
+        android:layout_marginTop="34dp"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/DownvoteButton"
+        android:background="#e30bad53" />
+
+    <Button
+        android:id = "@+id/DownvoteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Disgusting"
+        android:clickable="true"
+        android:onClick="downvote"
+        android:layout_alignTop="@+id/MessageText"
+        android:layout_alignParentRight="true"
+        android:background="#ffff0f0b" />
+
+
+
+</RelativeLayout>

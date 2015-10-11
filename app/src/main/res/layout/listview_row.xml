@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/relativeLayout1"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:id="@+id/FirstText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Message"
+        android:layout_marginTop="15dip"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+       >
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/SecondText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Machine"
+        android:layout_below="@id/FirstText"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="15dip"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        >
+    </TextView>
+
+        <TextView
+            android:id="@+id/ThirdText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upvotes"
+            android:layout_below= "@id/SecondText"
+            android:layout_marginTop="15dip"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:gravity="right">
+        </TextView>
+
+        <TextView
+            android:id="@+id/FourthText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Downvotes"
+            android:layout_below= "@id/SecondText"
+            android:layout_marginTop="15dip"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:layout_alignParentRight="true"
+            android:gravity="left">
+        </TextView>
+
+
+
+</RelativeLayout>

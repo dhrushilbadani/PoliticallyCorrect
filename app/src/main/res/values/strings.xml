@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Politically Correct</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="getStartedText"><u>Get Started</u></string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="LogInText">Log In</string>
+    <string name="SignUpText"><u>Don\'t have a Lens? Create one.</u></string>
+    <string name="lenspictext"><u>Choose a picture for your Lens.</u></string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="title_activity_your_lens_categories">YourLensCategories</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_tab1">Tab1</string>
+    <string name="title_activity_ask_question">AskQuestionActivity</string>
+</resources>
